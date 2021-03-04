@@ -5,9 +5,9 @@
 }
 
         /* PROPRIETA' PER STRUTTURARE LAYOUT PAGINA */
-        .container{
-            height: 300px;
-            border: 1px solid black;
+        div.container{
+            /* height: 300px; */
+            /* border: 1px solid black; */
             /* background-color: aqua; */
         }
         .jumbotron-section{
@@ -37,21 +37,14 @@
 .container{
     width: 1024px;
     margin: auto;
-    padding: 15px 50px;
-}
-.section{
-    padding: 15px 50px;
-}
-nav{
-    padding: 10px 0 10px 0;
-
+    padding: 15px 120px;
 }
 nav *{
     color: #33475b;
 }
 .top-nav{
     background-color: #f4f9fd;
-    border-bottom: 1px solid black;;
+    border-bottom: 1px solid black;
 }
 nav::after,
 footer .footer-container{
@@ -69,29 +62,47 @@ nav ul li{
     display:inline-block;
     list-style: none;
     line-height: 40px;
+    margin-right: 15px;    
 }
 nav a{
     text-decoration: none;
     display: inline-block;
+    /* margin-left: 10px; */
 }
 nav select {
     border-color: #f4f9fd;
 }
 nav .nav-emoji{
     color: grey;
-    filter: grayscale(80%);
+    filter: grayscale(100%);
 }
+
 nav .wrap-logo-nav{
     height:40px;
     display: inline-block;
 }
-
 .logo-img-nav{
     vertical-align: middle;
 }
+span.select-list{
+    font-size: 0.7em;
+    margin-left: 10px;
+}
 
-body button{
+
+button{
     border-radius: 5px;
+}
+button.btn-login{
+    color:#fe775a;
+    border: 1px solid #fe775a;
+}
+button.btn-ordinary{
+    background-color: #fe775a;
+    color:white;
+}
+nav ul li button{
+    padding: 10px 15px;
 }
 main .row::after{
     content: "";
