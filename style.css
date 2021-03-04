@@ -42,7 +42,7 @@ nav *{
 }
 .top-nav{
     background-color: #f4f9fd;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 nav::after,
 footer .footer-container{
@@ -130,6 +130,43 @@ main .jumbotron{
     padding-top: 10%;
     padding-bottom: 30%;
 }
+main .hero-t-content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 15px 50px;
+}
+main .hero-t-content .img-hero-t-content{
+    width: 240px;
+    height: 180px;
+    margin: auto;
+}
+.img-hero-t-content>img{
+    width: 100%;
+}
+.row.card-wrap{
+    background-color: white;
+}
+main .hero-section .row .l-col-2 .hero-c-content{
+    margin:auto;
+    padding: 10px 15px;
+}
+.hero-c-content .img-hero-l-col{
+    width: 180px;
+    height: 120px;
+    margin: auto;
+    padding: 10px 15px;
+}
+.img-hero-l-col>img{
+    width:100%;
+    height: 100%;
+}
+.hero-c-content .btn-hero-c-content{
+    margin:auto;
+    padding: 10px 20%;
+}
+
+/* LAYOU COLONNE  */
 main .row::after{
     content: "";
     display: table;
@@ -158,6 +195,7 @@ main .col .col-4{
 main .c-section .col-2{
     width:50%;
 }
+/* FINE LAYOUT COLONNE */
 .l-footer{
     float:left;
     background-color: black;
