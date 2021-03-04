@@ -116,13 +116,18 @@ main .jumbotron-container{
      background-repeat: no-repeat;
      background-size: cover;
 }
+main .jumbotron-section .hr{
+    height: 60px;
+    width: 1024px;
+    margin: -10px -120px;
+    background-color: #afebe4;
+}
 main .jumbotron{
     width:50%;
     height: 100%;
     padding-top: 10%;
     padding-bottom: 30%;
 }
-
 main .row::after{
     content: "";
     display: table;
