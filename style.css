@@ -11,9 +11,7 @@
             /* background-color: aqua; */
         }
         
-        .hero-section{
-            background-color:  #f4f9fd;
-        }
+        
         .t-section{
             background-color: #00abb6;
         }
@@ -27,9 +25,9 @@
         footer{
             background-color: #32495b;
         }
-        .col:nth-of-type(even){
+        /* .col:nth-of-type(even){
             background-color: seagreen;
-        }
+        } */
    
 
 .container{
@@ -108,7 +106,7 @@ nav ul li button{
     padding: 10px 15px;
 }
 main button.btn-ordinary{
-    padding: 15px 20px;
+    padding: 15px 25px;
 }
 main .jumbotron-container{
      background-image: url(img/jumbotron.png);
@@ -130,6 +128,9 @@ main .jumbotron{
     padding-top: 10%;
     padding-bottom: 30%;
 }
+.hero-container{
+    background-color:  #f4f9fd;
+}
 main .hero-t-content{
     width: 70%;
     margin: auto;
@@ -149,13 +150,13 @@ main .hero-t-content .img-hero-t-content{
 }
 main .hero-section .row .l-col-2 .hero-c-content{
     margin:auto;
-    padding: 10px 15px;
+    padding: 5% 10%;
 }
 .hero-c-content .img-hero-l-col{
     width: 180px;
     height: 120px;
     margin: auto;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 .img-hero-l-col>img{
     width:100%;
@@ -163,7 +164,26 @@ main .hero-section .row .l-col-2 .hero-c-content{
 }
 .hero-c-content .btn-hero-c-content{
     margin:auto;
-    padding: 10px 20%;
+    padding: 10px 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+/* CHIEDO BT-CONTENT SIZE DA INSPECTOR
+.btn-hero-c-content>.btn-ordinary{
+    
+} */
+
+
+.hero-c-content-right ul li{
+    display:inline-block;
+    text-decoration: none;
+    margin-right: 15px; 
+}
+span.circle-check{
+    background-color: #fe775a;
+    border-radius: 50%;
+    color: white;
 }
 
 /* LAYOU COLONNE  */
@@ -177,11 +197,11 @@ main .col{
 }
 main .hero-section .col.l-col-2, 
 main .c-section .col.l-col-2{
-    width:30%;
+    width:40%;
 }
 main .hero-section .col.r-col-2,
 main .c-section .col.r-col-2{
-    width: 70%;
+    width: 60%;
 }
 main.col.col-3{
     width:33%;
