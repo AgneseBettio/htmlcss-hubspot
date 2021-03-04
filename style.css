@@ -35,3 +35,13 @@ nav ul li{
     display:inline-block;
     list-style: none;
 }
+span.earth-entity{
+    background-color: #f4f9fd;
+    filter: grayscale(100%); 
+}
+nav a{
+    text-decoration: none;
+}
+nav select {
+    border-color: #f4f9fd;
+}
