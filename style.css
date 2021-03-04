@@ -32,12 +32,16 @@
         .col:nth-of-type(even){
             background-color: seagreen;
         }
-
+   
 
 .container{
     width: 1024px;
     margin: auto;
-    padding: 15px 50px;
+    padding: 15px 80px;
+}
+nav *{
+    color: #33475b;
+    border: 1px solid black;
 }
 .top-nav{
     background-color: #f4f9fd;
@@ -58,10 +62,7 @@ footer .footer-container{
 nav ul li{
     display:inline-block;
     list-style: none;
-}
-span.emoji-entity{
-    background-color: #f4f9fd;
-    filter: grayscale(100%); 
+    line-height: 40px;
 }
 nav a{
     text-decoration: none;
@@ -69,6 +70,14 @@ nav a{
 nav select {
     border-color: #f4f9fd;
 }
+nav .nav-emoji{
+    color: grey;
+    filter: grayscale(80%);
+}
+.logo-img-nav{
+    height: 40px;
+}
+
 body button{
     border-radius: 5px;
 }
