@@ -48,3 +48,20 @@ nav select {
 body button{
     border-radius: 5px;
 }
+main .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+main .col{
+    float: left;
+}
+main.col.col-3{
+    width:33%;
+}
+main .hero-section .l-col.col-2{
+    width:30%;
+}
+main .hero-section .l-col.col-2{
+    width: 70%;
+}
