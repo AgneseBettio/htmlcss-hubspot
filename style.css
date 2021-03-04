@@ -37,11 +37,17 @@
 .container{
     width: 1024px;
     margin: auto;
-    padding: 15px 80px;
+    padding: 15px 50px;
+}
+.section{
+    padding: 15px 50px;
+}
+nav{
+    padding: 10px 0 10px 0;
+
 }
 nav *{
     color: #33475b;
-    border: 1px solid black;
 }
 .top-nav{
     background-color: #f4f9fd;
@@ -66,6 +72,7 @@ nav ul li{
 }
 nav a{
     text-decoration: none;
+    display: inline-block;
 }
 nav select {
     border-color: #f4f9fd;
@@ -74,8 +81,13 @@ nav .nav-emoji{
     color: grey;
     filter: grayscale(80%);
 }
+nav .wrap-logo-nav{
+    height:40px;
+    display: inline-block;
+}
+
 .logo-img-nav{
-    height: 40px;
+    vertical-align: middle;
 }
 
 body button{
