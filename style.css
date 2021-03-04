@@ -6,7 +6,7 @@
 
 /* PROPRIETA' PER STRUTTURARE LAYOUT PAGINA */
 .container{
-    /* height: 300px; */
+    height: 300px;
     border: 1px solid black;
     background-color: aqua;
 }
@@ -20,7 +20,8 @@
     background-color: #f4f9fd;
     border-bottom: 1px solid black;;
 }
-nav::after{
+nav::after,
+footer .footer-container{
     content: "";
     display: table;
     clear: both;
@@ -56,12 +57,35 @@ main .row::after{
 main .col{
     float: left;
 }
+main .hero-section .col.l-col-2, 
+main .c-section .col.l-col-2{
+    width:30%;
+}
+main .hero-section .col.r-col-2,
+main .c-section .col.r-col-2{
+    width: 70%;
+}
 main.col.col-3{
     width:33%;
 }
-main .hero-section .l-col.col-2{
-    width:30%;
+main .c-section .col-2{
+    width: 50%;
 }
-main .hero-section .l-col.col-2{
-    width: 70%;
+main .col .col-4{
+    width: 25%;
+}
+main .c-section .col-2{
+    width:50%;
+}
+.l-footer{
+    float:left;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+.r-footer{
+    float:right;
+    background-color: black;
+    height: 50px;
+    width: 50px;
 }
