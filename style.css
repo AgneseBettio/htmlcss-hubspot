@@ -121,6 +121,8 @@ main .jumbotron-section .hr{
     width: 1024px;
     margin: -10px -120px;
     background-color: #afebe4;
+    border-top: 2px solid #33475b;
+    border-bottom: 2px solid #33475b;
 }
 main .jumbotron{
     width:50%;
