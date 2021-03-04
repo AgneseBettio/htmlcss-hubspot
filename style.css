@@ -4,12 +4,35 @@
     box-sizing: border-box;
 }
 
-/* PROPRIETA' PER STRUTTURARE LAYOUT PAGINA */
-.container{
-    height: 300px;
-    border: 1px solid black;
-    background-color: aqua;
-}
+        /* PROPRIETA' PER STRUTTURARE LAYOUT PAGINA */
+        .container{
+            height: 300px;
+            border: 1px solid black;
+            /* background-color: aqua; */
+        }
+        .jumbotron-section{
+            background-color: pink;
+        }
+        .hero-section{
+            background-color:  #f4f9fd;
+        }
+        .t-section{
+            background-color: #00abb6;
+        }
+        .c-section{
+            background-color: white;
+            
+        }
+        .b-section{
+            background-color: #32495b;
+        }
+        footer{
+            background-color: #32495b;
+        }
+        .col:nth-of-type(even){
+            background-color: seagreen;
+        }
+
 
 .container{
     width: 1024px;
