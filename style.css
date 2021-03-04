@@ -35,7 +35,7 @@ nav ul li{
     display:inline-block;
     list-style: none;
 }
-span.earth-entity{
+span.emoji-entity{
     background-color: #f4f9fd;
     filter: grayscale(100%); 
 }
@@ -44,4 +44,7 @@ nav a{
 }
 nav select {
     border-color: #f4f9fd;
+}
+body button{
+    border-radius: 5px;
 }
