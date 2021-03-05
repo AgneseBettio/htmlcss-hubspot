@@ -147,6 +147,7 @@ main .hero-t-content .img-hero-t-content{
 }
 .row.card-wrap{
     background-color: white;
+    padding: 20px 0 20px 0;
 }
 main .hero-section .row .l-col-2 .hero-c-content{
     margin:auto;
@@ -175,9 +176,10 @@ main .hero-section .row .l-col-2 .hero-c-content{
 } */
 
 .row.card-wrap .hero-c-content-right{
-    padding: 5% 15% 0 0;
+    padding: 10px 20px;
+    margin: auto;
 }
-.hero-c-content-right>h3{
+.hero-c-content-right h3{
     text-transform: uppercase;
 }
 .hero-c-content-right ul{
@@ -190,9 +192,10 @@ main .hero-section .row .l-col-2 .hero-c-content{
 }
 .hero-c-content-right .content-line{
     border-bottom: 2px solid  #899397;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right:auto;
     height: 15px;
+    width: 85%;
     padding-top: 5px;
     display: inline-block;
 }
@@ -208,16 +211,16 @@ main .sub-row::after{
     display: table;
     clear: both;
 }
-.sub-row>:nth-child(1){
+.sub-row>.sub-l-col{
     float:left;
-    width:35%;
+    width:40%;
     display: inline-block;
 }
-.sub-row>:nth-child(2){
+.sub-row>.sub-r-col{
     float:left;
-    width:55%;
+    width:60%;
+    display: inline-block;
 }
-
 
 /* LAYOU COLONNE  */
 main .row::after{
@@ -230,11 +233,11 @@ main .col{
 }
 main .hero-section .col.l-col-2, 
 main .c-section .col.l-col-2{
-    width:40%;
+    width:30%;
 }
 main .hero-section .col.r-col-2,
 main .c-section .col.r-col-2{
-    width: 60%;
+    width: 70%;
 }
 main.col.col-3{
     width:33%;
