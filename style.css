@@ -12,13 +12,8 @@
         }
         
         
-        .c-section{
-            background-color: white;
-            
-        }
-        .b-section{
-            background-color: #32495b;
-        }
+       
+       
         footer{
             background-color: #32495b;
         }
@@ -54,7 +49,8 @@ footer .footer-container{
 .r-nav{
     float:right;
 }
-nav ul{
+
+nav ul, main ul{
     list-style:none;
 }
 nav ul li{
@@ -297,6 +293,10 @@ main .t-container{
     margin:auto;
 }
 /* C-SECTION */
+.c-container .row .l-col-2>*{
+    text-align: center;
+}
+
 .c-section .partner-logo{
     width: 90px;
     height:30px;
@@ -309,6 +309,31 @@ main .t-container{
 .c-container .row.logo-row{
     padding: 0 10% 5% 10%;
 }
+.img-woman{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    float: right;
+}
+/* B-SECTION */
+.b-container{
+    background-color: #32495b;
+    color: white;
+}
+.b-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+.b-section .translated-language{
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.b-section ul.language li {
+    display: inline-block;
+
+}
+
+
 /* LAYOUT GENERICO COLONNE  */
 main .row::after{
     content: "";
@@ -342,13 +367,14 @@ main .c-section .col-2{
 main .col.col-4{
     width: 25%;
 }
-.img-woman{
-    width: 50%;
-    height: 50%;
-    display: inline-block;
-    float: right;
-}
+
 /* FINE LAYOUT COLONNE */
+
+
+
+
+
+
 .l-footer{
     float:left;
     background-color: black;
