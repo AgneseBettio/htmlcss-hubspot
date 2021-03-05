@@ -179,7 +179,8 @@ main .hero-section .row .l-col-2 .hero-c-content{
     padding: 10px 20px;
     margin: auto;
 }
-.hero-c-content-right h3{
+.hero-c-content-right h3,
+.hero-b-content h3{
     text-transform: uppercase;
 }
 .hero-c-content-right ul{
@@ -205,7 +206,7 @@ span.circle-check{
     border-radius: 50%;
     color: white;
 }
-/* FLOAT INTERNO HERO */
+/* FLOAT INTERNO HERO c-cention */
 main .sub-row::after{
     content: "";
     display: table;
@@ -214,15 +215,40 @@ main .sub-row::after{
 .sub-row>.sub-l-col{
     float:left;
     width:40%;
-    display: inline-block;
 }
 .sub-row>.sub-r-col{
     float:left;
     width:60%;
-    display: inline-block;
+}
+/* 3 COLONNE */
+div.img-col-3{
+    width: 180px;
+    height: 120px;
+    margin: auto;
+}
+div.img-col-3>img{
+    width: 100%;
+    height: 100%;
+}
+.hero-b-content>h2,.hero-b-content>p,.hero-b-content>h3{
+    text-align: center;
+}
+.hero-b-content ul {
+    list-style:none; 
+}
+.hero-b-content ul li{
+    text-decoration: none;
+}
+.hero-section .col-3 .hr{
+    content: "";
+    background-color:#33475b;
+    border-top: 0.5px solid #33475b;
+    border-bottom: 0.5px solid #33475b;
 }
 
-/* LAYOU COLONNE  */
+
+
+/* LAYOUT COLONNE  */
 main .row::after{
     content: "";
     display: table;
@@ -239,8 +265,9 @@ main .hero-section .col.r-col-2,
 main .c-section .col.r-col-2{
     width: 70%;
 }
-main.col.col-3{
+main .col.col-3{
     width:33%;
+    background-color: white;
 }
 main .c-section .col-2{
     width: 50%;
