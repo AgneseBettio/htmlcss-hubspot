@@ -148,6 +148,7 @@ main .hero-t-content .img-hero-t-content{
 .row.card-wrap{
     background-color: white;
     padding: 20px 0 20px 0;
+    margin-bottom: 20px;
 }
 main .hero-section .row .l-col-2 .hero-c-content{
     margin:auto;
@@ -233,6 +234,11 @@ div.img-col-3>img{
 .hero-b-content>h2,.hero-b-content>p,.hero-b-content>h3{
     text-align: center;
 }
+.hero-b-content{
+    padding: 15px 15px;
+    background-color: white;
+}
+
 .hero-b-content ul {
     list-style:none; 
 }
@@ -266,8 +272,14 @@ main .c-section .col.r-col-2{
     width: 70%;
 }
 main .col.col-3{
-    width:33%;
-    background-color: white;
+    width:33.3%;
+    
+    padding-left:10px;
+    padding-right:10px;
+}
+main .row.row-3-col{
+    margin-left: -10px;
+    margin-right: -10px; 
 }
 main .c-section .col-2{
     width: 50%;
