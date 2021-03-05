@@ -180,16 +180,44 @@ main .hero-section .row .l-col-2 .hero-c-content{
 .hero-c-content-right>h3{
     text-transform: uppercase;
 }
+.hero-c-content-right ul{
+    display: inline-block;
+}
 .hero-c-content-right ul li{
     display:inline-block;
     text-decoration: none;
     margin-right: 15px; 
 }
+.hero-c-content-right .content-line{
+    border-bottom: 2px solid  #899397;
+    margin-left: auto;
+    margin-right:auto;
+    height: 15px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
 span.circle-check{
-    background-color: #fe775a;
+    background-color:#fe775a;
     border-radius: 50%;
     color: white;
 }
+/* FLOAT INTERNO HERO */
+main .sub-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sub-row>:nth-child(1){
+    float:left;
+    width:35%;
+    display: inline-block;
+}
+.sub-row>:nth-child(2){
+    float:left;
+    width:55%;
+}
+
 
 /* LAYOU COLONNE  */
 main .row::after{
