@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body *{
+    font-family: 'Noto Sans SC', sans-serif;
+}
 
         /* PROPRIETA' PER STRUTTURARE LAYOUT PAGINA */
         div.container{
@@ -88,15 +91,14 @@ span.select-list{
 button{
     border-radius: 5px;
     text-decoration: none;
+    border: none;
 }
 button.btn-login{
     color:#fe775a;
-    border: 1px solid #fe775a;
 }
 button.btn-ordinary{
     background-color: #fe775a;
     color:white;
-    border: 1px solid #fe775a;
 }
 nav ul li button{
     padding: 10px 15px;
@@ -264,15 +266,15 @@ main .t-container{
     clear: both;
     display: table;
 }
-.t-section .table-row{
+/* .t-section .table-row{
     margin-bottom: -7.5px;
-}
+} */
 .t-section .table-row.row-1{
     border-bottom: 1px solid white;
 }
 .t-section .table-col{
     width: 25%;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     float: left;
     border-right: 2px solid white;
 }
@@ -332,7 +334,15 @@ main .t-container{
     display: inline-block;
 
 }
-
+.btn-support{
+padding: 10px 15px;
+background-color: #dadee0;
+color: #32495b;
+}
+.img-social{
+    height: 3em;
+    object-fit: contain;
+}
 
 /* LAYOUT GENERICO COLONNE  */
 main .row::after{
