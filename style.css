@@ -175,7 +175,10 @@ main .hero-section .row .l-col-2 .hero-c-content{
 } */
 
 .row.card-wrap .hero-c-content-right{
-    padding: 5% 0;
+    padding: 5% 15% 0 0;
+}
+.hero-c-content-right>h3{
+    text-transform: uppercase;
 }
 .hero-c-content-right ul li{
     display:inline-block;
