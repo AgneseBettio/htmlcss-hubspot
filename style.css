@@ -12,9 +12,6 @@
         }
         
         
-        .t-section{
-            background-color: #00abb6;
-        }
         .c-section{
             background-color: white;
             
@@ -35,6 +32,9 @@
     margin: auto;
     padding: 10px 120px;
 }
+
+/* NAV SECTION */
+
 nav *{
     color: #33475b;
 }
@@ -108,13 +108,22 @@ nav ul li button{
 main button.btn-ordinary{
     padding: 15px 25px;
 }
+
+/* JUMBOTRON SECTION */
+main .jumbotron{
+    width:50%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
 main .jumbotron-container{
      background-image: url(img/jumbotron.png);
      background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
 }
-main .jumbotron-section .hr{
+main .jumbotron-section .hr-block{
     height: 60px;
     width: 1024px;
     margin: -10px -120px;
@@ -122,12 +131,8 @@ main .jumbotron-section .hr{
     border-top: 2px solid #33475b;
     border-bottom: 2px solid #33475b;
 }
-main .jumbotron{
-    width:50%;
-    height: 100%;
-    padding-top: 10%;
-    padding-bottom: 30%;
-}
+
+/* HERO-SECTION */
 .hero-container{
     background-color:  #f4f9fd;
 }
@@ -251,10 +256,38 @@ div.img-col-3>img{
     border-top: 0.5px solid #33475b;
     border-bottom: 0.5px solid #33475b;
 }
+/* T-SECTION */
+main .t-container{
+    background-color: #00abb6;
+}
+.t-section .table-row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.t-section .data-table{
+    width: 25%;
+    padding: 15px 20px;
+    border: 1px solid black;
+    float: left;
+}
+.t-section .data-table>*{
+    text-align: center;
+    margin: auto;
+}
+
+.data-icon{
+    width: 120px;
+    height:20px;
+}
+.data-icon>img{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
 
 
-
-/* LAYOUT COLONNE  */
+/* LAYOUT GENERICO COLONNE  */
 main .row::after{
     content: "";
     display: table;
