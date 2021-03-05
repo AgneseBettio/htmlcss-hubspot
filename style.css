@@ -260,20 +260,31 @@ div.img-col-3>img{
 main .t-container{
     background-color: #00abb6;
 }
+.t-section .t-section-banner{
+    text-align: center;
+}
 .t-section .table-row::after{
     content: "";
     clear: both;
     display: table;
 }
-.t-section .data-table{
+.t-section .table-row{
+    margin-bottom: -7.5px;
+}
+.t-section .table-row.row-1{
+    border-bottom: 1px solid white;
+}
+.t-section .table-col{
     width: 25%;
     padding: 15px 20px;
-    border: 1px solid black;
     float: left;
+    border-right: 2px solid white;
 }
-.t-section .data-table>*{
+
+.t-section .table-col>*{
     text-align: center;
     margin: auto;
+    color: white;
 }
 
 .data-icon{
