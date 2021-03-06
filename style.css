@@ -6,25 +6,8 @@
 body *{
     font-family: 'Noto Sans SC', sans-serif;
 }
-
-        /* PROPRIETA' PER STRUTTURARE LAYOUT PAGINA */
-        div.container{
-            /* height: 300px; */
-            /* border: 1px solid black; */
-            /* background-color: aqua; */
-        }
-        
-        
+    
        
-       
-        footer{
-            background-color: #32495b;
-        }
-        /* .col:nth-of-type(even){
-            background-color: seagreen;
-        } */
-   
-
 .container{
     width: 1024px;
     margin: auto;
@@ -241,7 +224,6 @@ div.img-col-3>img{
     padding: 15px 15px;
     background-color: white;
 }
-
 .hero-b-content ul {
     list-style:none; 
 }
@@ -261,39 +243,47 @@ main .t-container{
 .t-section .t-section-banner{
     text-align: center;
 }
-.t-section .table-row::after{
+.t-section .table-wrap::after{
     content: "";
     clear: both;
     display: table;
 }
-/* .t-section .table-row{
-    margin-bottom: -7.5px;
-} */
-.t-section .table-row.row-1{
-    border-bottom: 1px solid white;
+.t-section .table-wrap>*{
+   float:left;
 }
-.t-section .table-col{
-    width: 25%;
-    /* padding: 15px 20px; */
-    float: left;
-    border-right: 2px solid white;
+.t-section .table-wrap .table-cell{
+  width: 25%;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding: 10px 20px;
+}
+.t-section .table-wrap .table-cell .table-img{
+  width:100%;
+  /* padding: 5px 10px; */
+}
+.table-img>img{
+  max-width: 120px;
+  max-height: 30px;
+}
+.table-cell h1::after{
+  content: ' \002B';
+  font-size: small;
+  vertical-align: middle;
+}
+.table-cell p{
+  font-size: small;
+}
+.table-wrap .table-cell:nth-child(-n+4){
+  border-bottom: 1px solid white;
+}
+.table-cell:nth-child(-n+3){
+  border-right: 1px solid white;
+}
+.table-cell:nth-child(n+5):nth-child(-n+7){
+  border-right: 1px solid white;
 }
 
-.t-section .table-col>*{
-    text-align: center;
-    margin: auto;
-    color: white;
-}
-
-.data-icon{
-    width: 120px;
-    height:20px;
-}
-.data-icon>img{
-    width: 100%;
-    height: 100%;
-    margin:auto;
-}
 /* C-SECTION */
 .c-container .row .l-col-2>*{
     text-align: center;
