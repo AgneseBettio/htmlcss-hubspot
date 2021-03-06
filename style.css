@@ -187,12 +187,21 @@ main .hero-section .row .l-col-2 .hero-c-content{
     padding-top: 5px;
     display: inline-block;
 }
-
-span.circle-check{
-    background-color:#fe775a;
-    border-radius: 50%;
+.hero-section ul li::before {
+    content: "\2713";
     color: white;
+    background-color:#fe775a;
+    width: 6px;
+    height: 6px;
+    line-height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 8px 8px 4px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
+
 /* FLOAT INTERNO HERO c-cention */
 main .sub-row::after{
     content: "";
