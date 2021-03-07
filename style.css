@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 body *{
-    font-family: 'Noto Sans SC', sans-serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    /* line-height: 30px; */
+    line-height: 1.5;
 }
     
        
 .container{
-    width: 1024px;
+    width: 1100px;
     margin: auto;
     padding: 10px 120px;
 }
@@ -66,7 +69,7 @@ img.logo-img-nav{
     height:100%;
 }
 span.select-list{
-    font-size: 0.7em;
+    font-size: 12px;
     margin-left: 10px;
     font-weight: bold;
     /* font-stretch: extra-expanded; */
@@ -105,8 +108,8 @@ main .jumbotron-container{
      background-size: cover;
 }
 main .jumbotron-section .hr-block{
-    height: 60px;
-    width: 1024px;
+    height: 70px;
+    width: 1100px;
     margin: -10px -120px;
     background-color: #afebe4;
     border-top: 2px solid #33475b;
@@ -118,10 +121,8 @@ main .jumbotron-section .hr-block{
     background-color:  #f4f9fd;
 }
 main .hero-t-content{
-    width: 70%;
     margin: auto;
     text-align: center;
-    padding: 15px 50px;
 }
 main .hero-t-content .img-hero-t-content{
     width: 240px;
@@ -176,7 +177,7 @@ main .hero-section .row .l-col-2 .hero-c-content{
 .hero-c-content-right ul li{
     display:inline-block;
     text-decoration: none;
-    margin-right: 15px; 
+    margin-right: 15px;
 }
 .hero-c-content-right .content-line{
     border-bottom: 2px solid  #899397;
@@ -197,9 +198,23 @@ main .hero-section .row .l-col-2 .hero-c-content{
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    padding: 4px 8px 8px 4px;
+    padding: 3px 6px 6px 3px;
     vertical-align: middle;
     margin-right: 10px;
+}
+.hero-b-content ul li{
+    line-height: normal;
+}
+.hero-b-content .fix-wrap:first-child{
+    height: 40%;
+    width: 100%;
+}
+.hero-b-content .fix-wrap:nth-child(2){
+    height: 60%;
+    width: 100%;
+}
+.hero-section .hero-b-content{
+    min-height: 450px;
 }
 
 /* FLOAT INTERNO HERO c-cention */
@@ -294,10 +309,6 @@ main .t-container{
 }
 
 /* C-SECTION */
-.c-container .row .l-col-2>*{
-    text-align: center;
-}
-
 .c-section .partner-logo{
     width: 90px;
     height:30px;
@@ -383,7 +394,10 @@ main .col.col-4{
 
 
 
-
+.footer-container{
+    background-color: #32495b;
+    color: white;
+}
 .l-footer{
     float:left;
     background-color: black;
