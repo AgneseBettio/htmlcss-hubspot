@@ -42,7 +42,7 @@ footer .footer-container{
 }
 
 
-nav ul li,{
+nav ul li, footer  .footer-2 ul li{
     display:inline-block;
     text-decoration: none;
     margin-right: 15px; 
@@ -382,12 +382,12 @@ nav.footer-2 ul li,{
 
 
 /* LAYOUT GENERICO COLONNE  */
-main .row::after{
+.row::after{
     content: "";
     display: table;
     clear: both;
 }
-main .col{
+.col{
     float: left;
 }
 main .hero-section .col.l-col-2, 
