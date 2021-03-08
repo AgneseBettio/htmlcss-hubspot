@@ -17,21 +17,21 @@ main h1{
 .container{
     width: 1100px;
     margin: auto;
-    padding: 10px 120px;
+    padding: 10px 20px;
 }
 
 
 /* NAV SECTION */
 
-nav *{
+.nav-section-1{
     color: #33475b;
 }
-.top-nav{
+.nav-section-2{
     background-color: #f4f9fd;
     border-bottom: 2px solid black;
 }
-nav::after,
-footer .footer-container{
+.nav-container,
+.footer-container{
     content: "";
     display: table;
     clear: both;
@@ -108,23 +108,25 @@ main .jumbotron{
     padding-bottom: 30%;
 }
 
-main .jumbotron-container{
+main .jumbotron-section{
      background-image: url(img/jumbotron.png);
-     background-position: bottom;
+     background-position: 0 25px;
      background-repeat: no-repeat;
      background-size: cover;
+     background-color:#fff2ef;
+     overflow: hidden;
 }
 main .jumbotron-section .green-block{
-    height: 70px;
-    width: 1100px;
-    margin: -10px -120px;
+    height: 60px;
+    width: 100%;
+    /* margin: -10px -120px; */
     background-color: #afebe4;
     border-top: 2px solid #33475b;
     border-bottom: 2px solid #33475b;
 }
 
 /* HERO-SECTION */
-.hero-container{
+.hero-section{
     background-color:  #f4f9fd;
 }
 main .hero-t-content{
@@ -263,7 +265,7 @@ div.img-col-3>img{
     border-bottom: 0.5px solid #33475b;
 }
 /* T-SECTION */
-main .t-container{
+main .t-section{
     background-color: #00abb6;
 }
 .t-section .t-section-banner{
@@ -375,6 +377,18 @@ nav.footer-2 ul li,{
     margin-right: 15px; 
     line-height: 40px;   
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* LAYOUT GENERICO COLONNE  */
