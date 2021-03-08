@@ -314,18 +314,21 @@ main .t-container{
 }
 
 /* C-SECTION */
-.c-section .partner-logo{
-    width: 90px;
-    height:30px;
-}
-.c-section .partner-logo>img{
+.c-section .r-col-2 .partner-list{
     width: 100%;
-    height:100%;
+  
+}
+  .partner-list .partner-logo{
+    width: 20%;
+    display: inline-block;
+ }
+  .c-section .partner-logo>img{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-}
-.c-container .row.logo-row{
-    padding: 0 10% 5% 10%;
-}
+    vertical-align: middle;
+    padding: 5px 10px;
+ }
 .img-woman{
     width: 50%;
     height: 50%;
