@@ -17,7 +17,7 @@ main h1{
 .container{
     width: 1100px;
     margin: auto;
-    padding: 10px 20px;
+    padding: 10px 60px;
 }
 
 
@@ -103,14 +103,13 @@ main button.btn-ordinary{
 /* JUMBOTRON SECTION */
 main .jumbotron{
     width:50%;
-    height: 100%;
-    padding-top: 10%;
-    padding-bottom: 30%;
+    padding-top: 30px;
+    padding-bottom: 300px;
 }
 
 main .jumbotron-section{
      background-image: url(img/jumbotron.png);
-     background-position: 0 25px;
+     background-position: 20px;
      background-repeat: no-repeat;
      background-size: cover;
      background-color:#fff2ef;
