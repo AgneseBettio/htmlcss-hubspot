@@ -9,14 +9,17 @@ body *{
 }
 body ul{
     list-style:none;
-}
-    
-       
+} 
+main h1{
+    font-size:xx-large;
+    font-weight:700;
+}      
 .container{
     width: 1100px;
     margin: auto;
     padding: 10px 120px;
 }
+
 
 /* NAV SECTION */
 
@@ -162,11 +165,6 @@ main .hero-section .row .l-col-2 .hero-c-content{
     display: inline-block;
     text-align: center;
 }
-/* CHIEDO BT-CONTENT SIZE DA INSPECTOR
-.btn-hero-c-content>.btn-ordinary{
-    
-} */
-
 .row.card-wrap .hero-c-content-right{
     padding: 10px 20px;
     margin: auto;
@@ -286,15 +284,15 @@ main .t-container{
   width: 25%;
   margin: auto;
   text-align: center;
-  padding: 10px 20px;
+  padding: 15px 25px;
 }
 .t-section .table-wrap .table-cell .table-img{
   width:100%;
   /* padding: 5px 10px; */
 }
 .table-img>img{
-  max-width: 120px;
-  max-height: 30px;
+  width: 120px;
+  height: 30px;
 }
 .table-cell h1::after{
   content: ' \002B';
