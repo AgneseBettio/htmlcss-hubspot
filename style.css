@@ -42,8 +42,7 @@ footer .footer-container{
 }
 
 
-nav ul li,
-footer ul li{
+nav ul li,{
     display:inline-block;
     text-decoration: none;
     margin-right: 15px; 
@@ -51,10 +50,11 @@ footer ul li{
 }
 
 nav a,
-.b-section a,
 footer a{
     text-decoration: none;
     display: inline-block;
+}
+nav a{
     margin-left: 15px;
 }
 
@@ -112,7 +112,7 @@ main .jumbotron-container{
      background-repeat: no-repeat;
      background-size: cover;
 }
-main .jumbotron-section .hr-block{
+main .jumbotron-section .green-block{
     height: 70px;
     width: 1100px;
     margin: -10px -120px;
@@ -246,7 +246,7 @@ div.img-col-3>img{
     width: 100%;
     height: 100%;
 }
-.hero-b-content>h2,.hero-b-content>p,.hero-b-content>h3{
+.hero-b-content h2,.hero-b-content p,.hero-b-content h3{
     text-align: center;
 }
 .hero-b-content{
@@ -272,6 +272,9 @@ main .t-container{
 .t-section .t-section-banner{
     text-align: center;
 }
+.t-container *{
+    color: white;
+}
 .t-section .table-wrap::after{
     content: "";
     clear: both;
@@ -282,7 +285,6 @@ main .t-container{
 }
 .t-section .table-wrap .table-cell{
   width: 25%;
-  color: white;
   margin: auto;
   text-align: center;
   padding: 10px 20px;
@@ -335,21 +337,18 @@ main .t-container{
     display: inline-block;
     float: right;
 }
-/* B-SECTION */
-.b-container{
-    background-color: #32495b;
-    color: white;
-}
-.b-section a,
+/* B-SECTION */  /* FOOTER */
+
 footer a {
     color: white;
 }
-.b-section .translated-language{
+.footer-1 .translated-language{
     border-bottom: 2px solid white;
     text-align: center;
 }
-.b-section ul.language li {
+.footer-1 ul.language li {
     display: inline-block;
+    margin-left: 15px;
 
 }
 .btn-support{
@@ -361,6 +360,26 @@ color: #32495b;
     height: 3em;
     object-fit: contain;
 }
+
+
+footer .container{
+    background-color: #32495b;
+    color: white;
+}
+
+.l-footer{
+    float:left;
+}
+.r-footer{
+    float:right;
+}
+nav.footer-2 ul li,{
+    display:inline-block;
+    text-decoration: none;
+    margin-right: 15px; 
+    line-height: 40px;   
+}
+
 
 /* LAYOUT GENERICO COLONNE  */
 main .row::after{
@@ -392,7 +411,7 @@ main .row.row-3-col{
 main .c-section .col-2{
     width: 50%;
 }
-main .col.col-4{
+.col.col-4{
     width: 25%;
 }
 
@@ -402,17 +421,4 @@ main .col.col-4{
 
 
 
-.footer-container{
-    background-color: #32495b;
-    color: white;
-}
-.l-footer{
-    float:left;
-}
-.r-footer{
-    float:right;
-}
-.r-footer a{
-    color: white;
 
-}
