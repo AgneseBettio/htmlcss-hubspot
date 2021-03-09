@@ -26,15 +26,21 @@ body ul{
     list-style:none;
 } 
 
-main .section{
+.hero-section, .t-section, .c-section{
     padding: 60px 0 60px 0;
 }
-    
+   
 .container{
     width: 1100px;
     margin: auto;
-    padding: 0 60px;
+    padding: 0 60px;      
 }
+/* .jumbotron-container{
+    padding-bottom: 60px;
+}
+.hero-container, .t-container, .c-container{
+    padding: 0 60px;  
+} */
 /* NAV SECTION */
 
 .nav-section-1{
@@ -118,8 +124,12 @@ main button.btn-ordinary{
 /* JUMBOTRON SECTION */
 main .jumbotron{
     width:55%;
-    padding-top: 30px;
-    padding-bottom: 350px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+main .jumbotron>p{
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 main .jumbotron-section{
@@ -127,11 +137,10 @@ main .jumbotron-section{
      background-position: right bottom;
      background-repeat: no-repeat;
      background-size: contain;
-     background-color:#FFF4EF;
-     
+     background-color:#FFF4EF;   
 }
 main .jumbotron-section .green-block{
-    height: 80px;
+    height: 85px;
     width: 100%;
     background-color: #afebe4;
     border-top: 2px solid #33475b;
