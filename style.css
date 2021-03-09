@@ -132,8 +132,9 @@ main .jumbotron-section{
      background-image: url(img/jumbotron.png);
      background-position: bottom;
      background-repeat: no-repeat;
+     height: 100%;
      background-size: contain;
-     background-color:#FFF4EF;   
+     background-color:#FFF1EE;
 }
 main .jumbotron-section .green-block{
     height: 85px;
