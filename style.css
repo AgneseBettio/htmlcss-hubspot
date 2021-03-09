@@ -39,10 +39,12 @@ body ul{
 
 .nav-section-1{
     color: #33475b;
+    padding: 15px 0 15px;
 }
 .nav-section-2{
     background-color: #f4f9fd;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid #33475b;
+    padding: 15px 0 15px;
 }
 .nav-container,
 .footer-container{
@@ -62,7 +64,7 @@ nav ul li, .footer-1 ul.language li, .footer-2 ul li{
     display:inline-block;
     text-decoration: none;
     margin-right: 20px; 
-    line-height: 40px;   
+    line-height: 60px;   
 }
 
 nav a,
@@ -71,7 +73,7 @@ footer a{
     display: inline-block;
 }
 nav a{
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 nav .nav-emoji{
@@ -81,7 +83,7 @@ nav .nav-emoji{
 
 nav .wrap-logo-nav,
 footer .wrap-logo-footer{
-    height:40px;
+    height:60px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -128,7 +130,7 @@ main .jumbotron>p{
 
 main .jumbotron-section{
      background-image: url(img/jumbotron.png);
-     background-position: right bottom;
+     background-position: bottom;
      background-repeat: no-repeat;
      background-size: contain;
      background-color:#FFF4EF;   
@@ -137,8 +139,8 @@ main .jumbotron-section .green-block{
     height: 85px;
     width: 100%;
     background-color: #afebe4;
-    border-top: 2px solid #33475b;
-    border-bottom: 2px solid #33475b;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
     position: relative;
     bottom: 0;
     margin-bottom:-60px;
@@ -210,13 +212,14 @@ main .hero-section .row.card-wrap .hero-c-content-left, .row.card-wrap .hero-c-c
     margin-right: 20px;
 }
 .hero-c-content-right .content-line{
-    border-bottom: 2px solid  #899397;
-    margin-left: 10px;
     margin-right:auto;
-    height: 15px;
     width: 85%;
-    padding-top: 5px;
     display: inline-block;
+    content: "";
+    background-color:#33475b;
+    border-top: 0.5px solid #33475b;
+    border-bottom: 0.5px solid #33475b;
+    margin-left: 10px;
 }
 .hero-section ul li::before {
     content: "\2713";
@@ -398,7 +401,7 @@ footer a {
     color: #b9c5d1;
 }
 .footer-1 .translated-language{
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
     text-align: center;
 }
 footer h4{
@@ -429,7 +432,11 @@ footer{
 .r-footer{
     float:right;
 }
-
+footer .footer-2::after{
+        content: "";
+        display: table;
+        clear: both;   
+}
 
 
 
