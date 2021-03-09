@@ -5,22 +5,36 @@
 }
 body *{
     font-family: 'Noto Sans JP', sans-serif;
-    line-height: 1.5;
+    line-height: 2;
+    font-weight: normal;
 }
+main h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+main h2{
+    font-weight: 500;
+    font-size: xx-large;
+    line-height: 36px;
+}
+main h3{
+    font-weight:500;
+}
+
 body ul{
     list-style:none;
 } 
-main h1{
-    font-size:xx-large;
-    font-weight:700;
-}      
+
+main .section{
+    padding: 60px 0 60px 0;
+}
+    
 .container{
     width: 1100px;
     margin: auto;
     padding: 10px 60px;
 }
-
-
 /* NAV SECTION */
 
 .nav-section-1{
@@ -44,10 +58,10 @@ main h1{
 }
 
 
-nav ul li, footer  .footer-2 ul li{
+nav ul li, .footer-1 ul.language li, .footer-2 ul li{
     display:inline-block;
     text-decoration: none;
-    margin-right: 15px; 
+    margin-left: 20px; 
     line-height: 40px;   
 }
 
@@ -98,31 +112,39 @@ nav ul li button{
 }
 main button.btn-ordinary{
     padding: 15px 25px;
+    margin: 6px 0 6px;
 }
 
 /* JUMBOTRON SECTION */
 main .jumbotron{
-    width:50%;
+    width:55%;
     padding-top: 30px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 
 main .jumbotron-section{
      background-image: url(img/jumbotron.png);
-     background-position: 20px;
+     background-position: right bottom;
      background-repeat: no-repeat;
-     background-size: cover;
-     background-color:#fff2ef;
-     overflow: hidden;
+     background-size: contain;
+     
+     background-color:#FFF4EF;
+     
 }
 main .jumbotron-section .green-block{
-    height: 60px;
+    height: 80px;
     width: 100%;
-    /* margin: -10px -120px; */
     background-color: #afebe4;
     border-top: 2px solid #33475b;
     border-bottom: 2px solid #33475b;
+    position: relative;
+    bottom: 0;
+    margin-bottom:-60px;
 }
+main p.smallest-text{
+    font-size: small;
+}
+
 
 /* HERO-SECTION */
 .hero-section{
@@ -131,6 +153,12 @@ main .jumbotron-section .green-block{
 main .hero-t-content{
     margin: auto;
     text-align: center;
+    margin-bottom: 40px;
+}
+main .hero-t-content h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 main .hero-t-content .img-hero-t-content{
     width: 240px;
@@ -142,8 +170,8 @@ main .hero-t-content .img-hero-t-content{
 }
 .row.card-wrap{
     background-color: white;
-    padding: 20px 0 20px 0;
-    margin-bottom: 20px;
+    padding: 40px 0 40px 0;
+    margin-bottom: 40px;
 }
 main .hero-section .row .l-col-2 .hero-c-content{
     margin:auto;
@@ -216,6 +244,19 @@ main .hero-section .row .l-col-2 .hero-c-content{
     height: 60%;
     width: 100%;
 }
+.hero-b-content h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hero-b-content .btn-hero-b-content{
+    text-align: center;
+    width: 100%;
+    margin-top:30px;
+}
+.hero-b-content h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 /* .hero-section .hero-b-content{
     min-height: 450px;
 } */
@@ -248,8 +289,9 @@ div.img-col-3>img{
     text-align: center;
 }
 .hero-b-content{
-    padding: 15px 15px;
+    padding: 20px 20px;
     background-color: white;
+    margin-top: 50px;
 }
 .hero-b-content ul {
     list-style:none; 
@@ -262,6 +304,7 @@ div.img-col-3>img{
     background-color:#33475b;
     border-top: 0.5px solid #33475b;
     border-bottom: 0.5px solid #33475b;
+    margin-top:40px;
 }
 /* T-SECTION */
 main .t-section{
@@ -269,9 +312,21 @@ main .t-section{
 }
 .t-section .t-section-banner{
     text-align: center;
+    padding-bottom: 30px;
+}
+.t-section .t-section-banner h2{
+    padding-right: 5%;
+    padding-left:5%;
+}
+.t-section .t-section-banner p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .t-container *{
     color: white;
+}
+.t-section .table-wrap {
+    margin-top: 20px;
 }
 .t-section .table-wrap::after{
     content: "";
@@ -289,7 +344,6 @@ main .t-section{
 }
 .t-section .table-wrap .table-cell .table-img{
   width:100%;
-  /* padding: 5px 10px; */
 }
 .table-img>img{
   width: 120px;
@@ -314,9 +368,24 @@ main .t-section{
 }
 
 /* C-SECTION */
+.c-section .c-container .l-col-2 .wrap-l-col-2{
+    width: 80%;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+.c-section .c-container .col-2 .wrap-col-2{
+    padding-top: 30px;
+}
+.c-section .c-container .col-2 .wrap-col-2 p{
+    margin-top:20px;
+    margin-bottom: 20px;;
+}
+.c-section .c-container .l-col-2 h1{
+    margin-bottom: 30px;  
+}
 .c-section .r-col-2 .partner-list{
     width: 100%;
-  
+    padding: 30px;
 }
   .partner-list .partner-logo{
     width: 20%;
@@ -344,22 +413,22 @@ footer a {
     border-bottom: 2px solid white;
     text-align: center;
 }
-.footer-1 ul.language li {
-    display: inline-block;
-    margin-left: 15px;
-
+footer h4{
+    line-height: 4;
 }
+
 .btn-support{
 padding: 10px 15px;
 background-color: #dadee0;
 color: #32495b;
+margin: 6px 0 6px;
 }
-.img-social{
-    height: 40px;
+footer .img-social{
+    height: 50px;
     object-fit: contain;
     vertical-align: middle;
 }
-footer .container{
+.footer-section{
     background-color: #32495b;
     color: white;
 }
@@ -369,12 +438,6 @@ footer .container{
 }
 .r-footer{
     float:right;
-}
-nav.footer-2 ul li,{
-    display:inline-block;
-    text-decoration: none;
-    margin-right: 15px; 
-    line-height: 40px;   
 }
 
 
